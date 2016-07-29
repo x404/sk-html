@@ -1,0 +1,4 @@
+.logo img{filter:expression(fixPNG(this)); position:relative}
+
+#wrapper{_width:expression((document.documentElement.clientWidth || document.body.clientWidth)<1004?"1004px":"auto")}   
+.login{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../images/auth-bg.png,sizingMethod=crop);background:none}

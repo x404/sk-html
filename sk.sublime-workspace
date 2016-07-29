@@ -1,0 +1,2217 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ri",
+				"right"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"s",
+				"src"
+			],
+			[
+				"scro",
+				"scrollTop"
+			],
+			[
+				"pa",
+				"panel"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"f",
+				"fixed"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"back",
+				"background-attachment"
+			],
+			[
+				"rbg",
+				"rgba(r,g,b,a)"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"15px",
+				"15px"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"expa",
+				"expand-current"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"url",
+				"urlimg"
+			],
+			[
+				"exp",
+				"expand-current"
+			],
+			[
+				"remov",
+				"removeClass"
+			],
+			[
+				"nav",
+				"navigation"
+			],
+			[
+				"border-s",
+				"border-spacing"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"list-s",
+				"list-style-position"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"pre",
+				"preventDefault"
+			],
+			[
+				"rgb",
+				"rgba(r,g,b,a)"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"a",
+				"autocomplete	Attr"
+			],
+			[
+				"rb",
+				"rgba(r,g,b,a)"
+			],
+			[
+				"rg",
+				"rgba(r,g,b,a)"
+			],
+			[
+				"u",
+				"url()"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"star",
+				"starttimesel2"
+			],
+			[
+				"im",
+				"important	!important"
+			],
+			[
+				"froma",
+				"from_aero"
+			],
+			[
+				"ae",
+				"aero3"
+			],
+			[
+				"inde",
+				"indexOf"
+			],
+			[
+				"from",
+				"from_okrug"
+			],
+			[
+				"vla",
+				"value"
+			],
+			[
+				"BA",
+				"background-position"
+			],
+			[
+				"ph",
+				"phoneresult"
+			],
+			[
+				"ulr",
+				"urlencode"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"ses",
+				"sesid"
+			],
+			[
+				"se",
+				"sesid"
+			],
+			[
+				"res",
+				"resultdecode"
+			],
+			[
+				"str",
+				"strjson"
+			],
+			[
+				"text",
+				"textStatus"
+			],
+			[
+				"is",
+				"is_house"
+			],
+			[
+				"deli",
+				"deliveryTime"
+			],
+			[
+				"date",
+				"datetime"
+			],
+			[
+				"del",
+				"deliveryTime"
+			],
+			[
+				"ta",
+				"target	Attr"
+			],
+			[
+				"e",
+				"entrance"
+			],
+			[
+				"coor",
+				"coord_destinations"
+			],
+			[
+				"coo",
+				"coord_destination"
+			],
+			[
+				"d",
+				"delivery2"
+			],
+			[
+				"pric",
+				"priceText"
+			],
+			[
+				"es",
+				"else"
+			],
+			[
+				"PRE",
+				"PremiseNumber"
+			],
+			[
+				"loca",
+				"Locality"
+			],
+			[
+				"els",
+				"else"
+			],
+			[
+				"sub",
+				"SubAdministrativeArea"
+			],
+			[
+				"st",
+				"style	Attr"
+			],
+			[
+				"tho",
+				"ThoroughfareName"
+			],
+			[
+				"geoco",
+				"GeocoderMetaData"
+			],
+			[
+				"Ad",
+				"AdministrativeArea"
+			],
+			[
+				"op",
+				"optional"
+			],
+			[
+				"c",
+				"calcprice"
+			],
+			[
+				"ch",
+				"checkbox"
+			],
+			[
+				"coun",
+				"countryOst"
+			],
+			[
+				"mk",
+				"mkad_len"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"city",
+				"city_time"
+			],
+			[
+				"mka",
+				"mkad_time"
+			],
+			[
+				"pr",
+				"price1"
+			],
+			[
+				"mkad",
+				"mkad_time"
+			],
+			[
+				"cit",
+				"city_time"
+			],
+			[
+				"rout",
+				"route_time"
+			],
+			[
+				"rou",
+				"route_time"
+			],
+			[
+				"cou",
+				"country_len"
+			],
+			[
+				"ci",
+				"city_time"
+			],
+			[
+				"ge",
+				"getLength"
+			],
+			[
+				"slid",
+				"slideUp"
+			],
+			[
+				"re",
+				"region-menu"
+			],
+			[
+				"map",
+				"mapmode2"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"roe",
+				"route_time"
+			],
+			[
+				"coord",
+				"coords1"
+			],
+			[
+				"na",
+				"name	Attr"
+			],
+			[
+				"che",
+				"checked"
+			],
+			[
+				"row",
+				"rowdata"
+			],
+			[
+				"remo",
+				"removeClass"
+			],
+			[
+				"get",
+				"getTime"
+			],
+			[
+				"mih",
+				"min-height"
+			],
+			[
+				"ca",
+				"class	Attr"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"tab",
+				"tabcontent"
+			],
+			[
+				"b",
+				"before"
+			],
+			[
+				"t",
+				"target	Attr"
+			],
+			[
+				"border-to",
+				"border-top-color"
+			],
+			[
+				"stat",
+				"status"
+			],
+			[
+				"statu",
+				"statusorder"
+			],
+			[
+				"trakc",
+				"tracking"
+			],
+			[
+				"tr",
+				"tracking"
+			],
+			[
+				"pro",
+				"productid"
+			],
+			[
+				"sele",
+				"selected"
+			],
+			[
+				"cl",
+				"classname"
+			],
+			[
+				"n",
+				"name"
+			],
+			[
+				"com",
+				"commentadmin"
+			],
+			[
+				"ad",
+				"address"
+			],
+			[
+				"cel",
+				"cellpadding"
+			],
+			[
+				"cell",
+				"cellspacing"
+			],
+			[
+				"thank",
+				"thankproduct"
+			],
+			[
+				"order",
+				"orderForm"
+			],
+			[
+				"ht",
+				"html2"
+			],
+			[
+				"local",
+				"localStorage"
+			],
+			[
+				"tabl",
+				"tablecartridge"
+			],
+			[
+				"cart_cartridge",
+				"cart_cartridges"
+			],
+			[
+				"car",
+				"cart_cartridge"
+			],
+			[
+				"produ",
+				"productNaim"
+			],
+			[
+				"cos",
+				"console"
+			],
+			[
+				"prod",
+				"productNaim"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "homepage.html",
+			"settings":
+			{
+				"buffer_size": 16992,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/W/domains/optshintorg.local/subdomain/css/styles.scss",
+			"settings":
+			{
+				"buffer_size": 28380,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "card.html",
+			"settings":
+			{
+				"buffer_size": 13814,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/engine.js",
+			"settings":
+			{
+				"buffer_size": 4534,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/less/product.less",
+			"settings":
+			{
+				"buffer_size": 3673,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/less/responsive-pages.less",
+			"settings":
+			{
+				"buffer_size": 10322,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/less/base.less",
+			"settings":
+			{
+				"buffer_size": 9838,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/less/homepage.less",
+			"settings":
+			{
+				"buffer_size": 3189,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/less/responsive-base.less",
+			"settings":
+			{
+				"buffer_size": 414,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Snippet: html",
+				"Snippet: html"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"disba",
+				"Package Control: Disable Package"
+			],
+			[
+				"disaba",
+				"Package Control: Disable Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"align",
+				"Preferences: Alignment Key Bindings – User"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"packe",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pcka",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/W/domains/sk.local/subdomain",
+		"/W/domains/sk.local/subdomain/css",
+		"/W/domains/sk.local/subdomain/css/less",
+		"/W/domains/sk.local/subdomain/js"
+	],
+	"file_history":
+	[
+		"/W/domains/sk.local/subdomain/index.html",
+		"/W/domains/sk.local/subdomain/.htaccess",
+		"/W/domains/prostori.local/subdomain/template/css/less/responsive-base.less",
+		"/D/Server/home/museum.local/www/js/engine.js",
+		"/W/domains/sk.local/subdomain/css/less/homepage.less",
+		"/W/domains/sk.local/subdomain/homepage.html",
+		"/W/domains/sk.local/subdomain/js/jquery.easing.min.js",
+		"/W/domains/sk.local/subdomain/js/jquery.lavalamp.min.js",
+		"/W/domains/apelsin.local/www/assets/components/ajaxform/js/recall.js",
+		"/W/domains/sk.local/subdomain/css/less/base.less",
+		"/W/domains/sk.local/subdomain/css/styles.less",
+		"/W/domains/sk.local/subdomain/css/less/flex.less",
+		"/W/domains/sk.local/subdomain/css/owl.carousel.css",
+		"/O/Download/owl.carousel/owl-carousel/owl.transitions.css",
+		"/W/domains/hlebkaluga.local/www/template/css/less/catalog.less",
+		"/W/domains/agf24.local/css/styles.less",
+		"/W/domains/hlebkaluga.local/subdomain/template/css/less/base.less",
+		"/W/domains/sk.local/subdomain/css/less/responsive-base.less",
+		"/W/domains/sk.local/subdomain/css/less/responsive-pages.less",
+		"/W/domains/acidwear.local/www/assets/templates/psystore/css/styles.less",
+		"/W/domains/parkplus.local/css/less/base.less",
+		"/W/domains/hlebkaluga.local/subdomain/template/css/less/catalog.less",
+		"/O/Download/featurecarousel(1)/jQuery-Feature-Carousel/index.html",
+		"/O/Download/featurecarousel(1)/jQuery-Feature-Carousel/js/jquery.featureCarousel.js",
+		"/W/domains/alcomag.local/homepage.html",
+		"/W/domains/alcomag.local/js/-jquery.featureCarousel.js",
+		"/W/domains/alcomag.local/js/engine.js",
+		"/W/domains/alcomag.local/js/jquery.featureCarousel.js",
+		"/W/domains/prostori.local/subdomain/project-form.html",
+		"/W/domains/prostori.local/subdomain/template/css/styles.less",
+		"/W/domains/prostori.local/subdomain/template/css/less/base.less",
+		"/W/domains/prostori.local/www/.htaccess",
+		"/W/domains/prostori.local/www/manager/assets/components/ckeditor/ckeditor/ckeditor.js",
+		"/W/domains/prostori.local/www/manager/templates/default/css/index.css",
+		"/W/domains/kts.local/www/assets/components/ajaxform/js/callback.js",
+		"/W/domains/apelsin.local/subdomain/js/engine.js",
+		"/W/domains/trans-ec.local/assets/templates/av/js/engine.js",
+		"/W/domains/hlebkaluga.local/www/template/css/less/articles.less",
+		"/W/domains/prostori.local/subdomain/service.html",
+		"/W/domains/prostori.local/subdomain/404.html",
+		"/W/domains/prostori.local/subdomain/template/js/engine.js",
+		"/W/domains/prostori.local/subdomain/faq.html",
+		"/W/domains/prostori.local/subdomain/awards.html",
+		"/W/domains/prostori.local/subdomain/about.html",
+		"/W/domains/prostori.local/subdomain/articles.html",
+		"/W/domains/prostori.local/subdomain/homepage.html",
+		"/W/domains/prostori.local/subdomain/css/less/homepage.less",
+		"/W/domains/prostori.local/subdomain/css/less/responsive-base.less",
+		"/W/domains/prostori.local/subdomain/css/less/base.less",
+		"/W/domains/prostori.local/subdomain/services.html",
+		"/W/domains/prostori.local/subdomain/template/js/ekko-lightbox.min.js",
+		"/W/domains/prostori.local/subdomain/css/less/responsive-pages.less",
+		"/W/domains/prostori.local/subdomain/contacts.html",
+		"/W/domains/prostori.local/subdomain/css/less/faq.less",
+		"/W/domains/apelsin.local/subdomain/css/less/homepage.less",
+		"/W/domains/apelsin.local/subdomain/css/less/responsive-pages.less",
+		"/W/domains/apelsin.local/subdomain/css/less/responsive-base.less",
+		"/W/domains/apelsin.local/subdomain/homepage.html",
+		"/W/domains/prostori.local/subdomain/template/js/ymaps.js",
+		"/W/domains/prostori.local/subdomain/css/less/contacts.less",
+		"/W/domains/hlebkaluga.local/subdomain/template/js/engine.js",
+		"/W/domains/hlebkaluga.local/subdomain/template/css/less/responsive-base.less",
+		"/W/domains/hlebkaluga.local/subdomain/template/css/less/responsive-pages.less",
+		"/W/domains/prostori.local/subdomain/index.html",
+		"/W/domains/shor.local/js/engine.js",
+		"/W/domains/prostori.local/subdomain/css/styles.less",
+		"/W/domains/prostori.local/subdomain/css/jquery.formstyler.css",
+		"/W/domains/prostori.local/subdomain/css/less/articles.less",
+		"/W/domains/hlebkaluga.local/subdomain/award.html",
+		"/W/domains/prostori.local/subdomain/css/less/award.less",
+		"/W/domains/hlebkaluga.local/subdomain/vacancy.html",
+		"/W/domains/prostori.local/subdomain/vacancy.html",
+		"/W/domains/prostori.local/subdomain/css/less/vacancy.less",
+		"/W/domains/prostori.local/subdomain/article.html",
+		"/W/domains/hlebkaluga.local/subdomain/article.html",
+		"/W/domains/hlebkaluga.local/subdomain/articles.html",
+		"/W/domains/prostori.local/subdomain/css/less/error.less",
+		"/W/domains/hlebkaluga.local/subdomain/homepage.html",
+		"/W/domains/genius.local/subdomain/template/js/engine.js",
+		"/O/Download/lightbox-master/dist/ekko-lightbox.css",
+		"/W/domains/prostori.local/subdomain/css/owl.carousel.css",
+		"/W/domains/prostori.local/subdomain/js/engine.js",
+		"/W/domains/shor.local/css/styles.less",
+		"/W/domains/shor.local/school.html",
+		"/W/domains/shor.local/contacts.html",
+		"/W/domains/shor.local/index.html",
+		"/W/domains/hlebkaluga.local/www/template/css/less/responsive-pages.less",
+		"/W/domains/shor.local/css/less/contacts.less",
+		"/W/domains/shor.local/css/less/base.less",
+		"/W/domains/shor.local/css/less/administration.less",
+		"/W/domains/hlebkaluga.local/www/template/css/styles.css",
+		"/W/domains/shor.local/css/less/school.less",
+		"/W/domains/shor.local/css/less/documents.less",
+		"/W/domains/shor.local/administration.html",
+		"/W/domains/shor.local/document-2.html",
+		"/W/domains/shor.local/documents-1.html",
+		"/W/domains/shor.local/css/styles-ie8.less",
+		"/W/domains/shor.local/css/less/events.less",
+		"/W/domains/shor.local/css/less/event.less",
+		"/W/domains/shor.local/js/jqModal.min.js",
+		"/W/domains/shor.local/homepage.html",
+		"/W/domains/shor.local/homepage-blind.html",
+		"/W/domains/shor.local/css/styles-ie.css",
+		"/W/domains/life.local/subdomain/css/less/base.less",
+		"/W/domains/shor.local/foto-video-inner.html",
+		"/W/domains/shor.local/event.html",
+		"/W/domains/shor.local/css/less/search-result.less",
+		"/W/domains/shor.local/css/jquery.formstyler.css",
+		"/W/domains/shor.local/css/less/to-editor.less",
+		"/W/domains/shor.local/css/less/media.less",
+		"/W/domains/shor.local/result-search.html",
+		"/W/domains/shor.local/css/less/blind.less",
+		"/W/domains/shor.local/css/less/homepage.less",
+		"/W/domains/shor.local/events.html",
+		"/W/domains/shor.local/css/less/content.less",
+		"/W/domains/shor.local/js/ymaps.js",
+		"/W/domains/apelsin.local/subdomain/css/less/base.less",
+		"/W/domains/apelsin.local/subdomain/css/less/my-bootstrap.less",
+		"/W/domains/apelsin.local/www/template/js/engine.js",
+		"/W/domains/apelsin.local/subdomain/css/styles.less",
+		"/W/domains/apelsin.local/subdomain/js/main.js",
+		"/W/domains/shor.local/news.html",
+		"/W/domains/shor.local/foto-video.html",
+		"/W/domains/oknarive.local/subdomain/css/styles.less",
+		"/W/domains/agf24.local/js/engine.js",
+		"/W/domains/genius.local/subdomain/template/css/less/base.less",
+		"/W/domains/oknarive.local/subdomain/js/engine.js",
+		"/W/domains/shor.local/css/highslide.css"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".news-list",
+			".text",
+			"/ >",
+			"<div class=\"transform-image scroll\">",
+			"title-price",
+			"<div class=\"title-price\">",
+			"price-buy",
+			"home-",
+			"<p class=\"title scroll\">",
+			"animate",
+			"md",
+			"<div>",
+			"div",
+			"goods",
+			"5c993b",
+			"open",
+			"fixed",
+			"<p class=\"title scroll\">",
+			"vali",
+			"<div class=\"transform-image\">",
+			"animate",
+			"<h3>",
+			"header",
+			"fixed",
+			"label",
+			"div",
+			"radio",
+			"checkbox1",
+			"         ",
+			"           ",
+			"          ",
+			"         ",
+			"width2",
+			"<div class=\"item grid-item\">",
+			"data-fluid-size",
+			"data-fluid-si",
+			"grid-item",
+			"<button>",
+			"grid-item",
+			"product-subtitle",
+			".goods",
+			"    ",
+			"d33a18",
+			"subs",
+			"fdedd2",
+			"subs",
+			"       ",
+			"live",
+			"bind",
+			"preload",
+			"setupTrackers",
+			"tracker",
+			"livebind",
+			"live",
+			"bind",
+			"live",
+			"$(document).ready(function(){\nlive",
+			"tracker-individual-blip",
+			"live",
+			"5",
+			"    ",
+			"f9edd2",
+			"images",
+			"    ",
+			"       ",
+			"301",
+			"css",
+			".cke_image_nocaption",
+			"nav{",
+			"navbar",
+			"start",
+			"$this",
+			"ajax",
+			"valid",
+			"Вынос границ земельного участка",
+			"Выдел долей из земель сельскохозяйственного назначения",
+			"js",
+			"template",
+			"title-white-bg",
+			"/templa",
+			"map",
+			"scale",
+			"scale_height",
+			".more",
+			".client",
+			"179",
+			"92.935218",
+			"56.044307",
+			"search",
+			"article",
+			"list-award",
+			"award",
+			"footer",
+			"<a href=",
+			"startcl",
+			" \n",
+			" class=\"row\"",
+			"article",
+			"chift_displaybold",
+			"chif",
+			"chift_displaybold",
+			"open",
+			"div class=\"col-sm-8 col-xs-12\">",
+			"<div class=\"col-sm-4 col-xs-12\">",
+			"tmp",
+			"hleb@kaluga-hleb.ru",
+			"<p>Калужская область была образована в 1944 году, из <a href=\"#\">выделенных земель Тульской</a>, Московской и других ближайших областей. С 1929 по 1937 годы Калуга принадлежала Московской области, с 1937 по1944 годы к Тульской области.</p>",
+			"<div class=\"col-sm-5 col-xs-12 text-center\">",
+			"История возникновения <br> комбината",
+			"<div class=\"line\"></div>",
+			"color7",
+			"main",
+			"1.3",
+			"prev",
+			"block-center",
+			"213px",
+			".pic",
+			"nav",
+			"col-md-3 col-sm-3",
+			"col-md-3",
+			"modal",
+			"oggle=\"lightb",
+			"lightbox",
+			"ekko-lightbox",
+			"back-top",
+			"fb",
+			"ok",
+			"fb"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"	",
+			"",
+			"	",
+			"<time datetime=\"2014-01-14T22:30\">",
+			"	",
+			"proverstka.local",
+			"../images/slider/",
+			"../images/slider",
+			"	",
+			"		",
+			"	",
+			"",
+			"url('../fonts/",
+			"",
+			"\"",
+			"<pre><code>",
+			"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "homepage.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16992,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4913,
+								4913
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										4913,
+										4914
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										4908,
+										4909
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"bs_sintax": "html",
+							"buffer_scroll_name": "2a04bc36",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"spell_check": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2448.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/W/domains/optshintorg.local/subdomain/css/styles.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 28380,
+						"regions":
+						{
+							"bookmarks":
+							{
+								"flags": 144,
+								"icon": "bookmark",
+								"regions":
+								[
+									[
+										11995,
+										11995
+									],
+									[
+										20224,
+										20224
+									],
+									[
+										22469,
+										22469
+									],
+									[
+										26776,
+										26776
+									]
+								],
+								"scope": "bookmarks"
+							}
+						},
+						"selection":
+						[
+							[
+								11000,
+								11000
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										11046,
+										11047
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										10976,
+										10977
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"bs_sintax": "scss",
+							"buffer_scroll_name": "c713f488",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"spell_check": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 13350.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "card.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13814,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4096,
+								4096
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										4096,
+										4097
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										4091,
+										4092
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"bs_sintax": "html",
+							"buffer_scroll_name": "b3cf9bc4",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"spell_check": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1748.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/engine.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4534,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								646,
+								646
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										4331,
+										4332
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										28,
+										29
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bs_sintax": "javascript",
+							"buffer_scroll_name": "78641ca9",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"spell_check": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/less/product.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3673,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1106,
+								1111
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1151,
+										1152
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1067,
+										1068
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bs_sintax": "plain text",
+							"buffer_scroll_name": "1a26b83e",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"spell_check": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1000.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "css/less/responsive-pages.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10322,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7709,
+								7709
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										7752,
+										7753
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										7709,
+										7710
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bs_sintax": "less",
+							"buffer_scroll_name": "3c264063",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"spell_check": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 11735.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "css/less/base.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9838,
+						"regions":
+						{
+							"bookmarks":
+							{
+								"flags": 144,
+								"icon": "bookmark",
+								"regions":
+								[
+									[
+										4680,
+										4680
+									],
+									[
+										4733,
+										4733
+									],
+									[
+										6411,
+										6411
+									]
+								],
+								"scope": "bookmarks"
+							}
+						},
+						"selection":
+						[
+							[
+								465,
+								471
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bs_sintax": "less",
+							"buffer_scroll_name": "82b1ba48",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"spell_check": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "css/less/homepage.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3189,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1835,
+								1835
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2282,
+										2283
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1511,
+										1512
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bs_sintax": "less",
+							"buffer_scroll_name": "3a7dfd99",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"spell_check": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2330.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "css/less/responsive-base.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 414,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								294,
+								294
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										412,
+										413
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										291,
+										292
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bs_sintax": "less",
+							"buffer_scroll_name": "f8552d9c",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"spell_check": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sk.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"homepage.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 341.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
