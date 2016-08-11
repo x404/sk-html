@@ -3,7 +3,7 @@
 @import url('elements.less');
 /*** reset ***********/
 html,body,ul,ol,li,dl,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,a,img,label{margin:0;padding:0;border:0}
-header, section, footer, aside, nav, article {display:block} 
+header, section, footer, aside, nav, article {display:block}
 ul{list-style:none}
 @color1:#000;
 @color2:#fff;
@@ -65,7 +65,7 @@ input::-moz-focus-inner{
 
 // .ucb{font-family: 'ucb'}
 
-header .title{
+header .title, .cat-title{
 	.ptserif;
 	color: @color6;
 	font-size: 27px;
@@ -74,7 +74,7 @@ header .title{
 	text-align: center;
 	padding-bottom: 25px;
 	text-transform: uppercase;
-	
+
 	&:before{
 		.before;
 		background: url(../images/title-dot.png) no-repeat center bottom;
@@ -95,6 +95,11 @@ header .title{
 		margin-left: -@w/2;
 		width: @w;
 	}
+}
+
+.cat-title{
+	margin-top: 15px;
+	margin-bottom: -10px;
 }
 
 .ptserif{
@@ -133,7 +138,7 @@ header .title{
 .before{
 	content: "";
 	display: block;
-	position: absolute;	
+	position: absolute;
 }
 
 
@@ -206,7 +211,7 @@ header .title{
 			.before;
 			.sprite;
 			left: -27px;
-			height: 14px;			
+			height: 14px;
 			top: 2px;
 			width: 17px;
 		}
@@ -251,7 +256,7 @@ nav ul li{
 				.rotation(180deg);
 			}
 		}
-	}	
+	}
 }
 
 /* =main
@@ -271,7 +276,7 @@ nav ul li{
 	margin-top: 85px;
 	padding: 53px 0;
 	text-align: center;
-	
+
 	p{
 		color: @color6;
 		font-size: 18px;
@@ -374,19 +379,17 @@ footer{
 		}
 	}
 }
+/* =/footer
+---------------------------*/
 
 
 
-
-
-
-
+/* =filter
+---------------------------*/
 .filter{
 	color: @color6;
 	padding-top: 38px;
 	margin-bottom: 38px;
-	// text-transform: uppercase;
-	
 	.all{
 		color: @color3;
 		&:hover,
@@ -426,7 +429,7 @@ footer{
 			span{
 				padding-left: 5px;
 			}
-			
+
 			span:before{
 				.before;
 				background: url(../images/checkbox.gif) no-repeat 15px top;
@@ -455,25 +458,60 @@ footer{
 			font-weight: 700;
 			&:before{
 				background-position: left -36px;
-			}			
+			}
 		}
 
 
 	}
-	
+
 	label,
 	a:hover{
 		color: @color6;
 	}
 }
+/* =/filter
+---------------------------*/
 
 
 
-
-
-
-
-
+/* =pagination
+---------------------------*/
+.pagination{
+	margin-top: 38px;
+	margin-bottom: 30px;
+	width: 100%;
+	font-size: 18px;
+	.page,
+	.page_prev,
+	.page_next{
+		display: inline-block;
+		margin-left: 7px;
+		margin-right: 7px;
+		a{
+			color: @color3;
+		}
+	}
+	.page_prev,
+	.page_next{
+		a{
+			.sprite(0,-35px);
+			display: block;
+			height: 10px;
+			width: 6px;
+			&:hover{
+				background-position: 0 -45px;
+			}
+		}
+	}
+	.page_prev{
+		.rotation(-180deg);
+	}
+	.page_active{
+		color: @color6;
+	}
+}
+/* =/pagination
+---------------------------*/
 
 
 
@@ -544,7 +582,8 @@ footer{
 .fadeIn{-webkit-animation-name:fadeIn; animation-name:fadeIn; -webkit-animation-duration:3s; animation-duration:3s;}
 
 
-.last-news{
+.last-news,
+.list-news{
 	.animated{
 		animation-duration: .75s;
 		animation-timing-function: ease;
@@ -552,14 +591,21 @@ footer{
 		backface-visibility: hidden;
 		transform: scale3d(1,1,1);
 		&.image{
-			animation-name: productListItemImageFadeInUp;			
+			animation-name: productListItemImageFadeInUp;
 		}
 		&.news-title{
-			animation-name: productListItemTitleFadeInUp;			
+			animation-name: productListItemTitleFadeInUp;
 		}
 		&.text{
-			animation-name: productListItemPriceFadeInUp;			
+			animation-name: productListItemPriceFadeInUp;
 		}
+	}
+}
+
+.list-news{
+	&-item{
+		height: 410px;
+		margin-bottom: 7px;
 	}
 }
 
@@ -572,20 +618,20 @@ footer{
 		backface-visibility: hidden;
 		transform: scale3d(1,1,1);
 		&.transform-image{
-			animation-name: productListItemImageFadeInUp;			
+			animation-name: productListItemImageFadeInUp;
 		}
 		&.title{
-			animation-name: productListItemTitleFadeInUp;			
+			animation-name: productListItemTitleFadeInUp;
 		}
 		&.price-buy{
-			animation-name: productListItemPriceFadeInUp;			
+			animation-name: productListItemPriceFadeInUp;
 		}
 	}
 }
 
 @media screen and (max-width: 1024px) {
 	.cifr{
-		-webkit-animation-name:none; animation-name:none; 
+		-webkit-animation-name:none; animation-name:none;
 		opacity: 1 !important
 	}
 	.fadeIn {

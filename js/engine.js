@@ -7,7 +7,7 @@ $(document).ready(function(){
 		singleItem : true,
 		navigationText: ["", ""],
 		transitionStyle : "fade"
-	});	
+	});
 
 
 	$("#foo2").owlCarousel({
@@ -22,14 +22,21 @@ $(document).ready(function(){
 		// itemsTablet: [600,2], //2 items between 600 and 0
 		// itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
 
-	});	
+	});
 
+
+	$("#foo3").owlCarousel({
+		items : 4,
+		pagination : false,
+		navigation : false,
+		navigationText: ["", ""]
+	});
 
 	// $('.home-slider').slick({
 	// 	dots: true,
 	// 	arrows : false,
 	// 	autoplay: true,
-	// 	autoplaySpeed : 5000		
+	// 	autoplaySpeed : 5000
 	// })
 
 
@@ -57,62 +64,62 @@ $(document).ready(function(){
 		h = $(".header").height();
 		/* =header */
 		if($this.scrollTop() > 13 && panel.hasClass('default')) {
-			// newsrc = $logo.attr("src").replace("logo", "logo-mini");
 			panel.removeClass('default').addClass('fixed');
 			$("body").addClass('bodyFixed');
-			// $logo.attr("src", newsrc);
-			// if (device.tablet()==false) {//для scrollParallax
-			// 	$(".intro").css("marginTop", $(".homeSlider").height()); 
-			// 	$(".main").css("marginTop", $("#foo4").height());
-			// }
-
-			// panel.height()
 		}
 		else {
 
 			if ($this.scrollTop() <=13 && panel.hasClass('fixed')){
-				// if($this.scrollTop() <= pos.top && panel.hasClass('fixed')) { // когда достигли самого начала страницы
-					panel.removeClass('fixed').addClass('default');
-					// newsrc = $logo.attr("src").replace("logo-mini", "logo");
-					// $logo.attr("src", newsrc);
-					$("body").removeClass('bodyFixed');
-					// $homeSlider.css("top",0);
-					// if (device.tablet()==true){$homeSlider.css("marginTop",0)}
-					// introPosition();
-				// }
+				panel.removeClass('fixed').addClass('default');
+				$("body").removeClass('bodyFixed');
 			}
 		}
 	})
 
-	
+
 
 	// var prefix = $('.prefix').val();
-		var mobile = navigator.userAgent.toLowerCase().match(/(iphone|ipod|ipad|android)/);
+		// var mobile = navigator.userAgent.toLowerCase().match(/(iphone|ipod|ipad|android)/);
 
-		if(mobile != null) {
-			// $('html').css('width', window.innerWidth + 'px');
-		} else {
+
+		//
+		// if ((scroll_top > top + 100) && (scroll_top < bottom)) {
+		// 	if (!block.hasClass("animated")) {
+		// 		block.addClass("animated");
+		// 		block.trigger('animateIn');
+		// 	}
+		// }
+
+
+
 			$(".scroll").each(function () {
 				var block = $(this);
-				$(window).scroll(function() {
-					var top = block.offset().top;
-					var bottom = block.height()+top;
-					top = top - $(window).height();
-					var scroll_top = $(this).scrollTop();
 
-					if ((scroll_top > top + 100) && (scroll_top < bottom)) {
+				// начальная позиция
+				var start_top = block.offset().top - $(window).height(),
+					 start_scroll_top = $(this).scrollTop();
+				if (start_scroll_top > start_top + 100){
+						block.addClass("animated");
+						block.trigger('animateIn');
+				}
+
+
+				$(window).scroll(function() {
+					// var top = block.offset().top,
+						// bottom = block.height()+top,
+					var top = block.offset().top - $(window).height(),
+						 scroll_top = $(this).scrollTop();
+
+					// if ((scroll_top > top + 100) && (scroll_top < bottom)) {
+					if (scroll_top > top + 100){
 						if (!block.hasClass("animated")) {
 							block.addClass("animated");
 							block.trigger('animateIn');
 						}
 					}
-					//  else {
-					// 	block.removeClass("animated");
-					// 	block.trigger('animateOut');
-					// }
 				});
 			});
-		};
+
 
 
 		$('.product-gallery a').click(function(e){
@@ -156,7 +163,7 @@ $(document).ready(function(){
 			document.body.appendChild(IEhelp);
 		}
 	}
-	// =/заглушка для IE		
+	// =/заглушка для IE
 })
 
 

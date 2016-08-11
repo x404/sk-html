@@ -12,7 +12,7 @@
 
 <meta name="robots" content="noindex,nofollow" />
 <!-- InstanceBeginEditable name="doctitle" -->
-<title>Карточка товара</title>
+<title>Каталог</title>
 <!-- InstanceEndEditable -->
 <link rel="stylesheet" href="css/bootstrap.min.css" />
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
@@ -86,91 +86,164 @@
 	<!-- InstanceBeginEditable name="EditRegion3" -->
 
 	<div class="main">
-		<!-- =product foto gallery -->
-		<div class="container">
-			<div class="product-foto text-center">
-				<img src="tmp/product.jpg" alt="" id="product-foto-big" />
+		<div class="cat-title text-center">Продукція</div>
+
+		<!-- =filter -->
+		<div class="filter text-center">
+			<a href="#" class="all">Показати всі</a>
+
+			<div class="option">
+				<p class="title">Тарілка</p>
+				<label>
+					<input type="checkbox" name="checkbox1[]" value="" />
+					<span>25 см</span>
+				</label>
+				<label>
+					<input type="checkbox" name="checkbox1[]" value="" />
+					<span>30 см</span>
+				</label>
+				<label>
+					<input type="checkbox" name="checkbox1[]" value="" />
+					<span>35 см</span>
+				</label>
 			</div>
-			<div class="row">
-				<div class="col-md-9 col-md-offset-2">
-					<div class="product-gallery">
-						<ul class="lavaLamp owl-carousel" id="foo2">
-							<li class="active"><a href="tmp/product.jpg"><img src="tmp/product-thumb-1.jpg" alt="" /></a></li>
-							<li><a href="tmp/product-2.jpg"><img src="tmp/product-thumb-2.jpg" alt="" /></a></li>
-							<li><a href="tmp/product.jpg"><img src="tmp/product-thumb-3.jpg" alt="" /></a></li>
-							<li><a href="tmp/product-2.jpg"><img src="tmp/product-thumb-4.jpg" alt="" /></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- =/product foto gallery-->
 
 
-		<!-- =product-info -->
-		<div class="product-info" role="main">
-			<div class="container">
-				<div class="row">
-					<div class="author col-sm-4 col-xs-12">
-						<p class="one text-center">МАЙСТЕР</p>
-						<img src="tmp/author.jpg" alt="" class="center-block author-pic " />
-						<p class="name text-center">Наталя Іванова</p>
-						<div class="text">
-							<p>заслужений художник, член союзу художників, учасник виставок, майстер народної творчості</p>
-						</div>
-					</div>
-					<div class="description col-sm-4 col-xs-12">
-						<h1>ТарІлка 30 см</h1>
-						<div class="text">Гармония, согласно традиционным представлениям, имеет самодостаточный хорал. Богатство мировой литературы от Платона до Ортеги-и-Гассета свидетельствует о том, что синтез искусств трансформирует символизм. Как было показано выше, мимезис представляет собой незначительный архетип. Литургическая драма, следовательно, характерна.</div>
-						<table class="table">
-							<tr>
-								<td>Розмір</td>
-								<td align="right"><strong>30 см</strong></td>
-							</tr>
-							<tr>
-								<td>Коробка</td>
-								<td align="right"><strong>картон</strong></td>
-							</tr>
-							<tr>
-								<td>Матеріал</td>
-								<td align="right"><strong>дерево</strong></td>
-							</tr>
-							<tr>
-								<td>Фарби</td>
-								<td align="right"><strong>акріл</strong></td>
-							</tr>
-						</table>
-					</div>
-					<div class="buy col-sm-4 col-xs-12">
-						<div class="box">
-							<p><span class="active">В НАЯВНОСТІ</span> / ПІД ЗАМОВЛЕННЯ*</p>
-							<p>*Виготовляється протягом 2 тижнів</p>
-							<p class="price">
-								1000 грн
-							</p>
-							<button class="buy-btn btn">ЗАМОВИТИ</button>
-						</div>
-					</div>
-				</div>
+			<div class="option">
+				<p class="title">Писанка</p>
+				<label>
+					<input type="checkbox" name="checkbox2[]" value="" />
+					<span>9 см</span>
+				</label>
+				<label>
+					<input type="checkbox" name="checkbox2[]" value="" />
+					<span>17 см</span>
+				</label>
+				<label>
+					<input type="checkbox" name="checkbox2[]" value="" />
+					<span>25 см</span>
+				</label>
+			</div>
+
+			<div class="option">
+				<p class="title">Келих</p>
+				<label>
+					<input type="checkbox" name="checkbox3[]" value="" />
+					<span>11 см</span>
+				</label>
+				<label>
+					<input type="checkbox" name="checkbox3[]" value="" />
+					<span>16 см</span>
+				</label>
+				<label>
+					<input type="checkbox" name="checkbox3[]" value="" />
+					<span>25 см</span>
+				</label>
 			</div>
 		</div>
-		<!-- =/product-info -->
+		<!-- =/filter -->
+
+		<!-- =home-catalog -->
+		<div class="home-catalog" role="main">
+			<div class="grid home-catalog-grid-items">
+				<div class="item grid-item">
+					<div class="item-layout">
+						<div class="list-item-product">
+							<a href="#">
+								<div class="transform-image scroll">
+									<div class="list-item-image text-center">
+										<div class="image">
+											<img src="tmp/plate-1.jpg" alt="" />
+										</div>
+									</div>
+								</div>
+								<p class="title scroll">Вишукані корпоративні подарунки ручної роботи</p>
+							</a>
+							<div class="price-buy-wrapper">
+								<div class="price-buy scroll">
+									<div class="price">1000 грн</div>
+									<button type="button" class="buy">Замовити</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item grid-item grid-item--width2">
+					<div class="item-layout">
+						<div class="list-item-product">
+							<a href="#">
+								<div class="transform-image scroll">
+									<div class="list-item-image text-center">
+										<div class="image">
+											<img src="tmp/plate-4.jpg" alt="" />
+										</div>
+									</div>
+								</div>
+								<p class="title scroll">Вишукані корпоративні подарунки ручної роботи</p>
+							</a>
+							<div class="price-buy-wrapper">
+								<div class="price-buy scroll">
+									<div class="price">1000 грн</div>
+									<button type="button" class="buy">Замовити</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item grid-item">
+					<div class="item-layout">
+						<div class="list-item-product">
+							<a href="#">
+								<div class="transform-image scroll">
+									<div class="list-item-image text-center">
+										<div class="image">
+											<img src="tmp/plate-2.jpg" alt="" />
+										</div>
+									</div>
+								</div>
+								<p class="title scroll">Вишукані корпоративні подарунки ручної роботи</p>
+							</a>
+							<div class="price-buy-wrapper">
+								<div class="price-buy scroll">
+									<div class="price">1000 грн</div>
+									<button type="button" class="buy">Замовити</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item grid-item">
+					<div class="item-layout">
+						<div class="list-item-product">
+							<a href="#">
+								<div class="transform-image scroll">
+									<div class="list-item-image text-center">
+										<div class="image">
+											<img src="tmp/plate-3.jpg" alt="" />
+										</div>
+									</div>
+								</div>
+								<p class="title scroll">Вишукані корпоративні подарунки ручної роботи</p>
+							</a>
+							<div class="price-buy-wrapper">
+								<div class="price-buy scroll">
+									<div class="price">1000 грн</div>
+									<button type="button" class="buy">Замовити</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
 
-		<!-- =other products -->
-		<section class="other-products">
-			<header>
-				<div class="title text-center">Вам можуть сподобатись</div>
-			</header>
-			<div class="owl-carousel other-products-carousel" id="foo2">
-				<div class="item">
+				<div class="item grid-item grid-item--width2">
 					<div class="item-layout">
 						<div class="list-item-product">
 							<a href="#">
 								<div class="transform-image scroll">
 									<div class="list-item-image text-center">
 										<div class="image">
-											<img src="tmp/owl-1.jpg" alt="" />
+											<img src="tmp/plate-5.jpg" alt="" />
 										</div>
 									</div>
 								</div>
@@ -185,14 +258,14 @@
 						</div>
 					</div>
 				</div>
-				<div class="item">
+				<div class="item grid-item grid-item--width2">
 					<div class="item-layout">
 						<div class="list-item-product">
 							<a href="#">
 								<div class="transform-image scroll">
 									<div class="list-item-image text-center">
 										<div class="image">
-											<img src="tmp/owl-2.jpg" alt="" />
+											<img src="tmp/plate-5.jpg" alt="" />
 										</div>
 									</div>
 								</div>
@@ -207,36 +280,14 @@
 						</div>
 					</div>
 				</div>
-				<div class="item">
+				<div class="item grid-item">
 					<div class="item-layout">
 						<div class="list-item-product">
 							<a href="#">
 								<div class="transform-image scroll">
 									<div class="list-item-image text-center">
 										<div class="image">
-											<img src="tmp/owl-3.jpg" alt="" />
-										</div>
-									</div>
-								</div>
-								<p class="title scroll">Подарунки ручної роботи</p>
-							</a>
-							<div class="price-buy-wrapper">
-								<div class="price-buy scroll">
-									<div class="price">1000 грн</div>
-									<button type="button" class="buy">Замовити</button>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="item">
-					<div class="item-layout">
-						<div class="list-item-product">
-							<a href="#">
-								<div class="transform-image scroll">
-									<div class="list-item-image text-center">
-										<div class="image">
-											<img src="tmp/owl-4.jpg" alt="" />
+											<img src="tmp/plate-7.jpg" alt="" />
 										</div>
 									</div>
 								</div>
@@ -251,14 +302,16 @@
 						</div>
 					</div>
 				</div>
-				<div class="item">
+
+
+				<div class="item grid-item">
 					<div class="item-layout">
 						<div class="list-item-product">
 							<a href="#">
 								<div class="transform-image scroll">
 									<div class="list-item-image text-center">
 										<div class="image">
-											<img src="tmp/owl-5.jpg" alt="" />
+											<img src="tmp/plate-1.jpg" alt="" />
 										</div>
 									</div>
 								</div>
@@ -273,14 +326,14 @@
 						</div>
 					</div>
 				</div>
-				<div class="item">
+				<div class="item grid-item">
 					<div class="item-layout">
 						<div class="list-item-product">
 							<a href="#">
 								<div class="transform-image scroll">
 									<div class="list-item-image text-center">
 										<div class="image">
-											<img src="tmp/owl-4.jpg" alt="" />
+											<img src="tmp/plate-3.jpg" alt="" />
 										</div>
 									</div>
 								</div>
@@ -295,12 +348,77 @@
 						</div>
 					</div>
 				</div>
+				<div class="item grid-item">
+					<div class="item-layout">
+						<div class="list-item-product">
+							<a href="#">
+								<div class="transform-image scroll">
+									<div class="list-item-image text-center">
+										<div class="image">
+											<img src="tmp/plate-3.jpg" alt="" />
+										</div>
+									</div>
+								</div>
+								<p class="title scroll">Вишукані корпоративні подарунки ручної роботи</p>
+							</a>
+							<div class="price-buy-wrapper">
+								<div class="price-buy scroll">
+									<div class="price">1000 грн</div>
+									<button type="button" class="buy">Замовити</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item grid-item">
+					<div class="item-layout">
+						<div class="list-item-product">
+							<a href="#">
+								<div class="transform-image scroll">
+									<div class="list-item-image text-center">
+										<div class="image">
+											<img src="tmp/plate-1.jpg" alt="" />
+										</div>
+									</div>
+								</div>
+								<p class="title scroll">Вишукані корпоративні подарунки ручної роботи</p>
+							</a>
+							<div class="price-buy-wrapper">
+								<div class="price-buy scroll">
+									<div class="price">1000 грн</div>
+									<button type="button" class="buy">Замовити</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item grid-item">
+					<div class="item-layout">
+						<div class="list-item-product">
+							<a href="#">
+								<div class="transform-image scroll">
+									<div class="list-item-image text-center">
+										<div class="image">
+											<img src="tmp/plate-7.jpg" alt="" />
+										</div>
+									</div>
+								</div>
+								<p class="title scroll">Вишукані корпоративні подарунки ручної роботи</p>
+							</a>
+							<div class="price-buy-wrapper">
+								<div class="price-buy scroll">
+									<div class="price">1000 грн</div>
+									<button type="button" class="buy">Замовити</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
 			</div>
-		</section>
-		<!-- =/other products -->
+		</div>
+		<!-- =/home-catalog -->
 	</div>
-
-
 
 
 	<!-- =subscribe -->
