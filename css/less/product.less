@@ -8,13 +8,13 @@
 		// .flex;
 		// .flex-justify-content(space-between);
 		text-align: center;
-		
+
 		li{
 			width: 25%;
 			float: left;
 			height: 145px;
 			vertical-align: middle;
-			
+
 			a{
 				display: inline-block;
 				// height: 147px;
@@ -23,7 +23,7 @@
 					display: inline-block;
 				}
 			}
-			
+
 			position: relative;
 			padding-bottom: 10px;
 			&.active, &:hover{
@@ -36,7 +36,7 @@
 					// left: 50%;
 					// margin-left: -27px;
 					// width: 53px;
-				}				
+				}
 			}
 
 			img{
@@ -45,6 +45,47 @@
 		}
 	}
 }
+
+
+#foo3{
+	.owl-controls{
+		top: 200px;
+		width: 100%;
+	}
+
+		.owl-buttons{
+			.owl-prev,
+			.owl-next{
+				.transition;
+				.rounded(40px);
+				background-color: @color3;
+				height: 40px;
+				top: 00px;
+				width: 40px;
+				z-index: 9999;
+				&:before{
+					.before;
+					.sprite(0,-14px);
+					width: 13px;
+					height: 21px;
+					top: 10px;
+					left: 12px;
+				}
+				&:hover{
+					background-color: @color4;
+				}
+			}
+
+			@x : 0;
+			.owl-prev{
+				left: @x;
+			}
+			.owl-next{
+				right: @x;
+			}
+		}
+}
+
 
 /* =product-info
 ---------------------------*/
@@ -88,11 +129,11 @@
 		table{
 			tr td{
 				border-top: none !important;
-				border-bottom: 1px solid @color2;				
+				border-bottom: 1px solid @color2;
 			}
 			tr:last-child td{
 				border-bottom: none;
-				
+
 			}
 		}
 	}
@@ -191,14 +232,11 @@
 /* Оформление блока меню */
 .lavaLamp {
 	position: relative;
-	// height: 29px; width: 421px;
-	// background: url("../image/bg.gif") no-repeat top;
-	// padding: 15px; margin: 10px 0;
 	overflow: hidden;
 }
 
-/* Делаем список горизонтальным */
 .lavaLamp li {
+	cursor: pointer;
 }
 
 /* Правая часть кнопки в меню. */
@@ -225,8 +263,7 @@
 	height: 5px;
 	left: 50%;
 	width: 53px;
-
-  margin-right: 9px;
+	margin-right: 9px;
 }
 
 /* Оформление кпопки. */

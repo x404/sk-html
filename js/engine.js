@@ -16,28 +16,7 @@ $(document).ready(function(){
 		navigation : true,
 		navigationText: ["", ""],
 		itemsCustom:  [[0, 1], [600, 2], [800, 3], [1000, 4], [1600, 5]]
-
-		// itemsDesktop : [1000,5], //5 items between 1000px and 901px
-		// itemsDesktopSmall : [900,3], // betweem 900px and 601px
-		// itemsTablet: [600,2], //2 items between 600 and 0
-		// itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
-
 	});
-
-
-	$("#foo3").owlCarousel({
-		items : 4,
-		pagination : false,
-		navigation : false,
-		navigationText: ["", ""]
-	});
-
-	// $('.home-slider').slick({
-	// 	dots: true,
-	// 	arrows : false,
-	// 	autoplay: true,
-	// 	autoplaySpeed : 5000
-	// })
 
 
 	$('.grid').isotope({
@@ -68,7 +47,6 @@ $(document).ready(function(){
 			$("body").addClass('bodyFixed');
 		}
 		else {
-
 			if ($this.scrollTop() <=13 && panel.hasClass('fixed')){
 				panel.removeClass('fixed').addClass('default');
 				$("body").removeClass('bodyFixed');
@@ -77,71 +55,60 @@ $(document).ready(function(){
 	})
 
 
+	$(".scroll").each(function () {
+		var block = $(this);
 
-	// var prefix = $('.prefix').val();
-		// var mobile = navigator.userAgent.toLowerCase().match(/(iphone|ipod|ipad|android)/);
-
-
-		//
-		// if ((scroll_top > top + 100) && (scroll_top < bottom)) {
-		// 	if (!block.hasClass("animated")) {
-		// 		block.addClass("animated");
-		// 		block.trigger('animateIn');
-		// 	}
-		// }
+		// начальная позиция
+		var start_top = block.offset().top - $(window).height(),
+			 start_scroll_top = $(this).scrollTop();
+		if (start_scroll_top > start_top + 100){
+				block.addClass("animated");
+				block.trigger('animateIn');
+		}
 
 
+		$(window).scroll(function() {
+			var top = block.offset().top - $(window).height(),
+				 scroll_top = $(this).scrollTop();
 
-			$(".scroll").each(function () {
-				var block = $(this);
-
-				// начальная позиция
-				var start_top = block.offset().top - $(window).height(),
-					 start_scroll_top = $(this).scrollTop();
-				if (start_scroll_top > start_top + 100){
-						block.addClass("animated");
-						block.trigger('animateIn');
+			if (scroll_top > top + 100){
+				if (!block.hasClass("animated")) {
+					block.addClass("animated");
+					block.trigger('animateIn');
 				}
+			}
+		});
+	});
 
 
-				$(window).scroll(function() {
-					// var top = block.offset().top,
-						// bottom = block.height()+top,
-					var top = block.offset().top - $(window).height(),
-						 scroll_top = $(this).scrollTop();
-
-					// if ((scroll_top > top + 100) && (scroll_top < bottom)) {
-					if (scroll_top > top + 100){
-						if (!block.hasClass("animated")) {
-							block.addClass("animated");
-							block.trigger('animateIn');
-						}
-					}
-				});
-			});
-
+	// slider on card page
+	$("#foo3").owlCarousel({
+		items : 1,
+		singleItem : true,
+		pagination : false,
+		navigation : true,
+		navigationText: ["", ""],
+		transitionStyle : "fade",
+		mouseDrag : false,
+		afterAction : function(elem){
+			cur = this.currentItem;
+			$('.product-gallery li').eq(cur).trigger('click');
+		}
+	});
 
 
-		$('.product-gallery a').click(function(e){
-			e.preventDefault();
+	$('.product-gallery li').click(function(e){
 			var $this = $(this),
-				newsrc = $this.attr('href');
-				img = $('#product-foto-big');
+				cur = $this.index();
+			$('#foo3').trigger("owl.goTo",cur);
+	})
 
-			$('.product-gallery li').removeClass('active');
-			$this.parent().addClass('active');
-
-			img.animate({opacity : 0},200, function(){
-					img.attr('src', newsrc);
-					img.animate({opacity:1},200)
-				}
-			);
-		})
-
-		$(".lavaLamp").lavaLamp({
-			fx: "backout",
-			speed: 700
-		})
+	$(".lavaLamp").lavaLamp({
+		fx: "backout",
+		speed: 700
+	})
+	// #slider on card page
+	
 
 	// =заглушка для IE
 	var browser = navigator.userAgent.indexOf("MSIE");
@@ -165,11 +132,3 @@ $(document).ready(function(){
 	}
 	// =/заглушка для IE
 })
-
-
-// $(window).smartresize(function(){
-//   $('.grid').isotope({
-//     // update columnWidth to a percentage of container width
-//     masonry: { columnWidth: $container.width() / 5 }
-//   });
-// });
