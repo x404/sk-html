@@ -30,7 +30,8 @@ $(document).ready(function(){
 
 	var panel = $('.header'),
 		pos = panel.offset(),
-		scrollCoef = 0.0018;
+		scrollCoef = 0.0018,
+		width = $(window).width();
 
 	$(window).bind("scroll",function() {
 		$this = $(this);
@@ -45,11 +46,15 @@ $(document).ready(function(){
 		if($this.scrollTop() > 13 && panel.hasClass('default')) {
 			panel.removeClass('default').addClass('fixed');
 			$("body").addClass('bodyFixed');
+			if ( width <= 991) {
+				$("body").addClass('bodyFixedSm')
+			} else{
+			}
 		}
 		else {
 			if ($this.scrollTop() <=13 && panel.hasClass('fixed')){
 				panel.removeClass('fixed').addClass('default');
-				$("body").removeClass('bodyFixed');
+				$("body").removeClass('bodyFixed bodyFixedSm');
 			}
 		}
 	})
@@ -108,7 +113,7 @@ $(document).ready(function(){
 		speed: 700
 	})
 	// #slider on card page
-	
+
 
 	// =заглушка для IE
 	var browser = navigator.userAgent.indexOf("MSIE");

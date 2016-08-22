@@ -199,8 +199,8 @@ header .title:after,
 }
 .header .navbar ul li {
   text-transform: uppercase;
-  margin-left: 12px;
-  margin-right: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .header .navbar ul li a:hover {
   text-decoration: none;
@@ -222,20 +222,16 @@ header .title:after,
   content: "";
   display: block;
   position: absolute;
-  background-image: url(../images/sprite.png);
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  left: -27px;
-  height: 14px;
-  top: 2px;
-  width: 17px;
+  background: url(../images/cart-small.png) no-repeat left top;
+  background-size: cover;
+  left: -42px;
+  height: 30px;
+  top: -9px;
+  width: 34px;
 }
 .small-cart a:hover {
   color: #d33a18;
   text-decoration: none;
-}
-.small-cart a:hover:before {
-  background-position: -16px 0;
 }
 /* =/header
 ---------------------------*/
@@ -1165,6 +1161,41 @@ footer .bottom .copyright {
 ::-ms-clear {
   display: none;
 }
+@media (max-width: 1199px) {
+  .header .navbar .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .header .navbar ul li {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+}
+@media (max-width: 991px) {
+  .bodyFixedSm .main {
+    margin-top: 200px;
+  }
+  .header {
+    padding-bottom: 0;
+  }
+  .header .logo {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+  .header .navbar {
+    padding-top: 30px;
+  }
+  .header ul li {
+    padding-top: 0;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  .small-cart {
+    padding-top: 30px;
+    text-align: center;
+  }
+}
 @media (max-width: 767px) {
   footer {
     height: auto;
@@ -1350,10 +1381,6 @@ footer .bottom .copyright {
   }
 }
 @media (max-width: 1199px) {
-  .header .navbar ul li {
-    margin-left: 6px;
-    margin-right: 6px;
-  }
   .grid-item {
     width: 369px;
   }
@@ -1480,14 +1507,6 @@ footer .bottom .copyright {
   }
 }
 @media (max-width: 991px) {
-  .header .navbar ul li {
-    margin-left: 4px;
-    margin-right: 4px;
-  }
-  .small-cart {
-    padding-top: 20px;
-    text-align: center;
-  }
   .other-products-carousel:before {
     left: -70px;
   }

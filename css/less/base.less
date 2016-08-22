@@ -176,8 +176,8 @@ header .title, .cat-title{
 			display: inline-block;
 			li{
 				text-transform: uppercase;
-				margin-left: 12px;
-				margin-right: 12px;
+				margin-left: 10px;
+				margin-right: 10px;
 				a{
 					&:hover{
 						text-decoration: none;
@@ -209,17 +209,19 @@ header .title, .cat-title{
 		position: relative;
 		&:before{
 			.before;
-			.sprite;
-			left: -27px;
-			height: 14px;
-			top: 2px;
-			width: 17px;
+			//.sprite;
+			background: url(../images/cart-small.png) no-repeat left top;
+			background-size: cover;
+			left: -42px;
+			height: 30px;
+			top: -9px;
+			width: 34px;
 		}
 		&:hover{
 			color: @color4;
 			text-decoration: none;
 			&:before{
-				background-position: -16px 0;
+				//background-position: -16px 0;
 			}
 		}
 	}
