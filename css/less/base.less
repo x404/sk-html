@@ -17,6 +17,8 @@ ul{list-style:none}
 @color10:#795220;
 @color11:#f0f0f0;
 @color12:#5c993b;
+@color13:#e56548;
+@color14:#ff3c1f;
 
 
 
@@ -515,6 +517,89 @@ footer{
 /* =/pagination
 ---------------------------*/
 
+/* =main
+---------------------------*/
+main{
+	color: @color6;
+	p{
+		line-height: 1.5;
+		margin: 10px 0;
+	}
+	h1,h2,h3,h4,h5,h6{
+		margin: 10px 0;
+	}
+	h1{
+		font-size: 27px;
+	}
+	h2{
+		font-size: 23px;
+	}
+	h3{
+		font-size: 18px;
+	}
+	h4{
+		font-size: 14px;
+	}
+	h5{
+		font-size: 11px;
+	}
+	h6{
+		font-size: 9px;
+	}
+	ul{
+		padding-left: 20px;
+		li{
+			background:url("data:image/png;base64,R0lGODlhBwAHAMQAAPXCt+NaPPXBtuNZOvrk3/S+svvp5fS8r/vn4uNYOeVlSOVkR+RhROVjRvO6rfS8sPO7rv///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAcAAAUgYBRBySFGjiI0EKoYEcImwPkE0IJEBPOMC4fvdBgURCEAOw==") no-repeat left 8px;
+			position: relative;
+			padding-left: 18px;
+			margin: 7px 0;
+		}
+	}
+
+	blockquote{
+		font-style: italic;
+		font-size: 14px;
+		border: none;
+		position: relative;
+		padding-left: 80px;
+		padding-right: 97px;
+		&:before,
+		&:after{
+			.before;
+			.ptserif;
+			color: @color5;
+			font-size: 150px;
+			font-style: italic;
+			// left: -20px;
+			line-height: 0;
+			opacity: .4;
+			position: absolute;
+			top: 45px;
+		}
+		&:before{
+			content: "«";
+			left: 0;
+		}
+		&:after{
+			content: "»";
+			right: 0;
+		}
+	}
+	.author{
+		font-size: 18px;
+		color: @color14;
+		position: relative;
+		padding-left: 18px;
+		&:before{
+			.before;
+			content: "—";
+			// position: absolute;
+			left: 0;
+		}
+	}
+}
+/* =/main
+---------------------------*/
 
 
 .fadeIn, .cifr{opacity:1;}
@@ -610,6 +695,26 @@ footer{
 		margin-bottom: 7px;
 	}
 }
+
+
+.list-masters{
+	.animated{
+		animation-duration: .75s;
+		animation-timing-function: ease;
+		animation-fill-mode: both;
+		backface-visibility: hidden;
+		transform: scale3d(1,1,1);
+		&.image{
+		}
+		&.master-info{
+			animation-name: productListItemImageFadeInUp;
+		}
+		&.master-about{
+			animation-name: productListItemTitleFadeInUp;
+		}
+	}
+}
+
 
 .home-catalog,
 .other-products-carousel{
