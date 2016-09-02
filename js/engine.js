@@ -48,7 +48,6 @@ $(document).ready(function(){
 			$("body").addClass('bodyFixed');
 			if ( width <= 991) {
 				$("body").addClass('bodyFixedSm')
-			} else{
 			}
 		}
 		else {
@@ -136,4 +135,9 @@ $(document).ready(function(){
 		}
 	}
 	// =/заглушка для IE
+
 })
+
+window.onload = function(){
+   // window.scrollTo( 0, 20);
+}
