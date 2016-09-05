@@ -24,8 +24,7 @@ ul{list-style:none}
 
 body{
     font-family: 'PT Sans', sans-serif;
-	font-size:10px;
-	font-size: 1.4rem;
+	font-size:14px;
 }
 
 html, body{
@@ -42,10 +41,16 @@ input::-moz-focus-inner{
 /*** standart classes *****/
 p{line-height:16px}
 a{color:#020000}
-h1{font-size:2.5rem}
-h2{font-size:2.4rem}
-h3{font-size:1.6rem}
 
+h1,h2,h3,h4,h5,h6{
+	margin: 10px 0;
+}
+h1{font-size: 27px}
+h2{font-size: 23px}
+h3{font-size: 18px}
+h4{font-size: 14px}
+h5{font-size: 11px}
+h6{font-size: 9px}
 
 *:focus{outline:none}
 
@@ -67,7 +72,9 @@ input::-moz-focus-inner{
 
 // .ucb{font-family: 'ucb'}
 
-header .title, .cat-title{
+header .title,
+.cat-title,
+.page-title{
 	.ptserif;
 	color: @color6;
 	font-size: 27px;
@@ -101,7 +108,7 @@ header .title, .cat-title{
 
 .cat-title{
 	margin-top: 15px;
-	margin-bottom: -10px;
+	// margin-bottom: -10px;
 }
 
 .ptserif{
@@ -392,7 +399,7 @@ footer{
 ---------------------------*/
 .filter{
 	color: @color6;
-	padding-top: 38px;
+	padding-top: 0;
 	margin-bottom: 38px;
 	.all{
 		color: @color3;
@@ -525,27 +532,7 @@ main{
 		line-height: 1.5;
 		margin: 10px 0;
 	}
-	h1,h2,h3,h4,h5,h6{
-		margin: 10px 0;
-	}
-	h1{
-		font-size: 27px;
-	}
-	h2{
-		font-size: 23px;
-	}
-	h3{
-		font-size: 18px;
-	}
-	h4{
-		font-size: 14px;
-	}
-	h5{
-		font-size: 11px;
-	}
-	h6{
-		font-size: 9px;
-	}
+
 	ul{
 		padding-left: 20px;
 		li{

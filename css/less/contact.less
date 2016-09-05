@@ -1,0 +1,46 @@
+.contact-box{
+	margin-top: 20px;
+	margin-bottom: 48px;
+	h3{
+		.ptserif;
+		padding-bottom: 8px;
+	}
+	p{
+		line-height: 1.4;
+		margin: 12px 0;
+	}
+}
+
+.contact-letter{
+	margin-top: 20px;
+	h3{
+		.ptserif;
+	}
+	.contact-form{
+		margin-top: 18px;
+		.form-group{
+			margin-top: 20px;
+			&:after{
+				content: "";
+				display: block;
+				clear: both;
+			}
+			input.form-control{
+				float: left;
+				width: 49%;
+				&:last-child{
+					float: right;
+				}
+			}
+		}
+		textarea{
+			width: 100%;
+		}
+		.submit{
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
+			// float: none !important;
+		}
+	}
+}
