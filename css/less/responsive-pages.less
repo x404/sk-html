@@ -553,8 +553,10 @@
 
 @media (max-width: 768px){
 	.filter .option{
-		display: block;
+	/*	display: block;
 		margin-top: 15px;
+		margin-left: 0;
+		*/
 	}
 
 	.grid-item {
@@ -625,6 +627,14 @@
 	.contact-box{
 		text-align: center;
 	}
+
+	.contact-form{
+		.form-group{
+			// padding-left: 15px;
+			// padding-right: 15px;
+		}
+	}
+
 }
 
 
@@ -633,6 +643,10 @@
 		.answer{
 			width: 100%;
 		}
+	}
+
+	.order label.error, .order label.valid{
+		display: none !important;
 	}
 }
 
@@ -646,22 +660,26 @@
 
 		.item{
 			.price-buy-wrapper{
-				float: right;
-				width: 65%;
+				// float: right;
+				// width: 65%;
+				// text-align: center;
 			}
 			.title{
-				font-size: 18px;
-				padding-top: 10px;
+				font-size: 20px;
+				padding-top: 30px;
+				padding-bottom: 10px;
+				width: 100%;
 			}
 			.title,
 			.price-buy{
 				padding-left: 0 !important;
 				position: static;
-				text-align: left;
+				text-align: center;
 			}
 
 			.price-buy{
 				padding-top: 10px;
+				padding-bottom: 10px;
 				.price{
 					margin-left: 0;
 					font-size: 22px;
@@ -684,9 +702,9 @@
 		}
 
 		.transform-image{
-			float: left;
-			top: 20px;
-			width: 30%;
+			// float: left;
+			// top: 20px;
+			// width: 30%;
 		}
 	}
 
@@ -726,35 +744,22 @@
 		}
 	}
 
-}
-
-
-@media (max-width: 565px){
-	.header{
-		.logo{
-			text-align: center;
-			float: none;
-			display: block;
-
-		}
-		.navbar{
-			text-align: center;
-			padding-top: 20px;
-			margin-bottom: 0;
-			.navbar-toggle{
-				float: none;
-			}
-			ul{
-				margin-top: 10px;
-				li{
+	.order{
+		.bottom{
+			margin-top: 15px;
+			.phones{
+				line-height: .9;
+				margin-top: 25px;
+				span{
 					display: block;
-					float: none;
-					padding-top: 5px;
-					padding-bottom: 5px;
 				}
 			}
 		}
 	}
+}
+
+
+@media (max-width: 568px){
 	.grid-item {
 		width: 100%;
 	}
@@ -766,16 +771,15 @@
 	}
 
 	.home-catalog .item .title{
-		margin-left: 35%;
-		width: auto;
-		padding-right: 0;
-		font-size: 16px;
+		font-size: 20px;
 		left: 0;
+		padding-right: 0;
+		width: auto;
 	}
 
 	.filter .all, .filter .title{
-		display: block;
-		padding-bottom: 5px;
+		// display: block;
+		// padding-bottom: 5px;
 	}
 
 	footer{
@@ -797,8 +801,11 @@
 
 	.other-products{
 		.owl-carousel{
+			.owl-controls{
+				top: -65px;
+			}
 			.owl-buttons{
-				display: none;
+				display: block;
 			}
 		}
 	}
@@ -806,8 +813,8 @@
 	// contact page
 	.contact-letter .contact-form{
 		margin-top: 30px;
-		padding-left: 15px;
-		padding-right: 15px;
+		// padding-left: 15px;
+		// padding-right: 15px;
 		.form-group{
 			margin: 0;
 			input.form-control{
@@ -817,18 +824,50 @@
 			}
 		}
 	}
+
+	// cart
+	.cart{
+		.buttons{
+			text-align: center;
+			*{
+				display: block;
+				float: none !important;
+				margin-bottom: 10px;
+			}
+		}
+		.table-footer{
+			display: table-cell;
+			position: relative;
+			left: 50px;
+		}
+	}
 }
 
 
 
 @media (max-width: 500px){
+	.home-catalog{
+		.item .price-buy{
+			.buy,
+			.price{
+				font-size: 24px;
+			}
+		}
+	}
 	.faq-cat .question{
-		width: auto;
 		margin-left: 15px;
+		width: auto;
 	}
 	.faq-form form{
 		width: 100%;
 		.form-control{
+			width: 100%;
+		}
+	}
+
+	// order
+	.order{
+		.order-form{
 			width: 100%;
 		}
 	}
@@ -841,15 +880,11 @@
 		}
 		margin-bottom: 0;
 		.home-catalog-grid-items{
-			height: auto !important;
 			display: block;
+			height: auto !important;
 		}
 		.item .price-buy .buy{
-			display: block;
-			padding-left: 0;
 			margin-top: 5px;
-			margin-left: 0;
-			font-size: 18px;
 		}
 	}
 
@@ -858,5 +893,45 @@
 		ul li{
 			width: 100%;
 		}
+	}
+}
+
+
+
+@media (max-width: 414px){
+	#foo3 .owl-controls{
+		display: none !important;
+		top: 165px;
+	}
+	.home-catalog, .other-products-carousel{
+		.item .list-item-product{
+			padding-right: 10px;
+		}
+	}
+}
+
+@media (max-width: 384px){
+	#foo2, #foo3{
+		.owl-controls{
+			display: none !important;
+			top: 140px;
+		}
+	}
+}
+
+@media (max-width: 375px){
+	.home-catalog, .other-products-carousel{
+		.item .price-buy .price{
+			display: block;
+			margin-top: 10px;
+			margin-bottom: 5px;
+		}
+	}
+}
+
+
+@media (max-width: 320px){
+	.cart .table-footer{
+		left: 5px;
 	}
 }

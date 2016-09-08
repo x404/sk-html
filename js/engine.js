@@ -28,6 +28,9 @@ $(document).ready(function(){
 	});
 
 
+
+
+
 	var panel = $('.header'),
 		pos = panel.offset(),
 		scrollCoef = 0.0018,
@@ -118,10 +121,66 @@ $(document).ready(function(){
 		e.preventDefault();
 		var $this = $(this);
 		$this.next('.answer').slideToggle("normal",function(){
-			$this.parent().toggleClass('open');			
+			$this.parent().toggleClass('open');
 		})
 	})
 
+	// styler
+	$('#delivery').styler({
+		onSelectClosed: function() {
+			$('#delivery').trigger('refresh');
+			$('#delivery-styler').removeClass('error').addClass('valid').append('<label class="valid">Успіх!</label>')
+		}
+	});
+
+	$('#payment').styler({
+		onSelectClosed: function() {
+			$('#payment').trigger('refresh');
+			$('#payment-styler').removeClass('error').addClass('valid').append('<label class="valid">Успіх!</label>')
+		}
+	});
+	// #styler
+
+
+	//  validation order form
+	$('.order-form').validate({
+		submitHandler: function(form){
+			//  событие в случае успешной валидации (тут можно вызывать ajax)
+		}
+	})
+
+	$('.order-form .form-control').on('change click keypress',function(){
+		var $this = $(this);
+		setTimeout(function() {
+			$this.closest('.box').find('label.valid').remove();
+			if ($this.hasClass('valid')) {
+				$('<label class="valid">Успіх!</label>').insertAfter($this);
+			}
+		}, 1);
+	})
+	//  #validation order form
+
+
+	$('.mobile-menu').each(function(){
+		var $this = $(this),
+			$link = $('.navbar-toggle'),
+			$close = $this.find('.back'),
+
+			init = function(){
+				$link.on('click', openMenu);
+				$close.on('click', closeMenu);
+			},
+			openMenu = function(e){
+				e.preventDefault();
+				$('body').addClass('o-menu')
+				// $this.addClass('o-menu');
+			},
+			closeMenu = function(e){
+				e.preventDefault();
+				$('body').removeClass('o-menu');
+			};
+		init();
+	});
 
 	// =заглушка для IE
 	var browser = navigator.userAgent.indexOf("MSIE");
@@ -147,6 +206,7 @@ $(document).ready(function(){
 
 })
 
-window.onload = function(){
-   // window.scrollTo( 0, 20);
-}
+jQuery.extend(jQuery.validator.messages, {
+	required: "Помилка",
+	email: "Помилка"
+})

@@ -19,6 +19,8 @@ ul{list-style:none}
 @color12:#5c993b;
 @color13:#e56548;
 @color14:#ff3c1f;
+@color15:#d9d8d4;
+@color16:#f5f5f4;
 
 
 
@@ -59,19 +61,6 @@ input::-moz-focus-inner{
 	padding: 0;
 }
 
-// @font-face {
-// 	font-family: 'ucb';
-// 	src: url('../fonts/univers_condensed_bold.eot');
-// 	src: url('../fonts/univers_condensed_bold.eot?#iefix') format('embedded-opentype'),
-// 		 url('../fonts/univers_condensed_bold.woff') format('woff'),
-// 		 url('../fonts/univers_condensed_bold.ttf') format('truetype'),
-// 		 url('../fonts/univers_condensed_bold.svg#univers_condensedbold') format('svg');
-// 	font-weight: normal;
-// 	font-style: normal;
-// }
-
-// .ucb{font-family: 'ucb'}
-
 header .title,
 .cat-title,
 .page-title{
@@ -79,6 +68,7 @@ header .title,
 	color: @color6;
 	font-size: 27px;
 	margin-bottom: 30px;
+	margin-bottom: 15px;
 	position: relative;
 	text-align: center;
 	padding-bottom: 25px;
@@ -108,7 +98,6 @@ header .title,
 
 .cat-title{
 	margin-top: 15px;
-	// margin-bottom: -10px;
 }
 
 .ptserif{
@@ -154,22 +143,17 @@ header .title,
 /* =header
 ---------------------------*/
 .header{
-	padding-top: 22px;
 	background: @color2;
+	padding-top: 22px;
 	padding-bottom: 10px;
-	// padding-bottom: 35px;
-	// height: 168px;
-	// .transition;
 
 	&.fixed{
-		position: fixed;
-		// height: 130px;
 		padding-top: 8px;
+		position: fixed;
 		top: 0;
 		width: 100%;
-		z-index: 9;
+		z-index: 999;
 	}
-
 
 	.logo{
 		float: left;
@@ -184,9 +168,9 @@ header .title,
 		ul{
 			display: inline-block;
 			li{
-				text-transform: uppercase;
 				margin-left: 10px;
 				margin-right: 10px;
+				text-transform: uppercase;
 				a{
 					&:hover{
 						text-decoration: none;
@@ -198,6 +182,85 @@ header .title,
 	}
 }
 
+.lang{
+	font-size: 13px;
+	left: 0;
+	position: absolute;
+	text-align: right;
+	text-transform: uppercase;
+	top: -3px;
+	width: 238px;
+	a, span{
+		margin-left: 2px;
+		margin-right: 2px;
+	}
+	span{
+		color: @color7;
+		cursor: default;
+		font-weight: bold;
+	}
+	a{
+		color: @color6;
+		&:focus,
+		&:active{
+			color: inherit;
+		}
+	}
+}
+
+
+// mobile menu
+
+
+.o-menu{
+	overflow: hidden;
+}
+.mobile-menu{
+	.transform(translate(-100%, 0px));
+	background-color: @color6;
+	color: @color2;
+	display: none;
+	height: 100%;
+	left: 0;
+	min-height: 365px;
+	padding: 70px 0 45px 37px;
+	position: fixed;
+	top: 0;
+	transition: all 0.3s ease 0s;
+	width: 100%;
+	z-index: 1000;
+	.back{
+		position: absolute;
+		left: 13px;
+		top: 16px;
+	}
+	a{
+		color: @color2;
+	}
+
+	.menu{
+		text-transform: uppercase;
+		li{
+			padding: 10px 0 6px;
+		}
+	}
+	.logo{
+		margin-top: 77px;
+	}
+	.social{
+		margin-top: 35px;
+		margin-bottom: 10px;
+		a{
+			color: @color2;
+			font-size: 18px;
+			margin-left: 5px;
+			margin-right: 17px;
+			&:last-child{
+				margin-right: 0;
+			}
+		}
+	}
+}
 
 
 .bodyFixed{
@@ -205,8 +268,6 @@ header .title,
 		margin-top: 120px+25;
 	}
 }
-
-
 
 
 .small-cart{
@@ -218,7 +279,6 @@ header .title,
 		position: relative;
 		&:before{
 			.before;
-			//.sprite;
 			background: url(../images/cart-small.png) no-repeat left top;
 			background-size: cover;
 			left: -42px;
@@ -269,14 +329,47 @@ nav ul li{
 		}
 	}
 }
-
 /* =main
 ---------------------------*/
 
-.main{
-	aside{
+
+/* =breadcrumbs
+---------------------------*/
+.breadcrumbs{
+	margin: 15px 0;
+	text-align: center;
+	padding-bottom: 20px;
+	position: relative;
+	&:after{
+		.before;
+		border-bottom: 1px solid #fdf8ed;
+		@w : 160px;
+		left: 50%;
+		margin-left: -@w/2;
+		width: @w;
+		bottom: 0;
+	}
+	.separator{
+		background: url(../images/dot-gray.png) no-repeat left top;
+		display: inline-block;
+		height: 7px;
+		margin-left: 3px;
+		margin-right: 3px;
+		width: 7px;
+	}
+	.current{
+		color: @color7;
+	}
+	a{
+		&:hover,
+		&:focus,
+		&:active{
+			color: currentColor;;
+		}
 	}
 }
+/* =/breadcrumbs
+---------------------------*/
 
 
 /* =subscribe
@@ -301,15 +394,19 @@ nav ul li{
 			&.form-control{
 				.drop-shadow(0,0,0,0);
 				border-color: @color2;
+				border: 2px solid @color2;
 				color: @color3;
 				margin-right: 10px;
 				width: 460px;
-				border: 2px solid @color2;
 				&:hover,
 				&:focus{
 					border-color: @color4;
 					border-width: 2px;
 				}
+				&::-webkit-input-placeholder {color:@color3;}
+				&::-moz-placeholder          {color:@color3;}/* Firefox 19+ */
+				&:-moz-placeholder           {color:@color3;}/* Firefox 18- */
+				&:-ms-input-placeholder      {color:@color3;}
 			}
 			&.submit{
 				.transition;
@@ -365,7 +462,8 @@ footer{
 			.transition;
 			color: @color6;
 			font-size: 20px;
-			margin-left: 20px;
+			margin-left: 10px;
+			margin-right: 10px;
 			&:hover{
 				color: @color7;
 			}
@@ -397,10 +495,19 @@ footer{
 
 /* =filter
 ---------------------------*/
+.filter-responsive{
+	margin-top: 35px;
+	min-height: .01%;
+	overflow-x: auto;
+}
+
+
 .filter{
 	color: @color6;
+	margin-bottom: 28px;
+	margin-left: auto;
+	margin-right: auto;
 	padding-top: 0;
-	margin-bottom: 38px;
 	.all{
 		color: @color3;
 		&:hover,
@@ -421,6 +528,7 @@ footer{
 	.option{
 		display: inline-block;
 		margin-left: 30px;
+		margin-bottom: 10px;
 		label{
 			margin-left: 8px;
 			margin-right: 8px;
@@ -471,8 +579,6 @@ footer{
 				background-position: left -36px;
 			}
 		}
-
-
 	}
 
 	label,
@@ -527,6 +633,9 @@ footer{
 /* =main
 ---------------------------*/
 main{
+	h1,h2,h3,h4,h5,h6{
+		.ptserif;
+	}
 	color: @color6;
 	p{
 		line-height: 1.5;
@@ -557,7 +666,6 @@ main{
 			color: @color5;
 			font-size: 150px;
 			font-style: italic;
-			// left: -20px;
 			line-height: 0;
 			opacity: .4;
 			position: absolute;
@@ -590,7 +698,10 @@ main{
 
 
 .fadeIn, .cifr{opacity:1;}
-.animated { -webkit-animation-fill-mode:both; animation-fill-mode:both;}
+.animated {
+	-webkit-animation-fill-mode:both;
+	animation-fill-mode:both;
+}
 
 @-webkit-keyframes fadeIn {
   0% { opacity:0;}
@@ -608,6 +719,7 @@ main{
   0% { opacity:0; transform:scale(0.9);}
   100% { opacity:1; transform:scale(1);}
 }
+
 @-webkit-keyframes slideMod1 {
   0% { opacity:0; -webkit-transform:translateY(-60px);}
   100% { opacity:1; -webkit-transform:translateY(0);}
@@ -616,27 +728,48 @@ main{
   0% { opacity:0; transform:translateY(-60px);}
   100% { opacity:1; transform:translateY(0);}
 }
+
+
 @keyframes fadeInRight {
 	0% {opacity: 0;transform: translateX(20px);}
 	100% {opacity: 1; transform: translateX(0px);}
+}
+@-webkit-keyframes fadeInRight {
+	0% {opacity: 0;-webkit-transform: translateX(20px);}
+	100% {opacity: 1; -webkit-transform: translateX(0px);}
 }
 @keyframes fadeInLeft {
 	0% {opacity: 0; transform: translateX(-20px);}
 	100% {opacity: 1; transform: translateX(0px);}
 }
+@-webkit-keyframes fadeInLeft {
+	0% {opacity: 0; -webkit-transform: translateX(-20px);}
+	100% {opacity: 1; -webkit-transform: translateX(0px);}
+}
 
 
-
+@-webkit-keyframes productListItemImageFadeInUp{
+	0%{opacity:0;transform:translate3d(0,10%,0)}
+	100%{opacity:1;transform:none}
+}
 @keyframes productListItemImageFadeInUp{
 	0%{opacity:0;transform:translate3d(0,10%,0)}
 	100%{opacity:1;transform:none}
 }
 
+@-webkit-keyframes productListItemTitleFadeInUp{
+	0%{opacity:0;-webkit-transform:translate3d(0,35%,0)}
+	100%{opacity:1;-webkit-transform:none}
+}
 @keyframes productListItemTitleFadeInUp{
 	0%{opacity:0;transform:translate3d(0,35%,0)}
 	100%{opacity:1;transform:none}
 }
 
+@-webkit-keyframes productListItemPriceFadeInUp{
+	0%{opacity:0;-webkit-transform:translate3d(0,45%,0)}
+	100%{opacity:1;-webkit-transform:none}
+}
 @keyframes productListItemPriceFadeInUp{
 	0%{opacity:0;transform:translate3d(0,45%,0)}
 	100%{opacity:1;transform:none}
@@ -644,33 +777,49 @@ main{
 
 
 .fadeInRight.animated {
-    animation-name: fadeInRight;
-    -webkit-animation-duration:2s; animation-duration:2s;
+   -webkit-animation-name: fadeInRight;
+   animation-name: fadeInRight;
+   -webkit-animation-duration:2s;
+	animation-duration:2s;
 }
 
 .fadeInLeft.animated{
-    animation-name: fadeInLeft;
-    -webkit-animation-duration:2s; animation-duration:2s;
+   -webkitanimation-name: fadeInLeft;
+   animation-name: fadeInLeft;
+   -webkit-animation-duration:2s;
+	animation-duration:2s;
 }
 
-.fadeIn{-webkit-animation-name:fadeIn; animation-name:fadeIn; -webkit-animation-duration:3s; animation-duration:3s;}
+.fadeIn{
+	-webkit-animation-name:fadeIn;
+	animation-name:fadeIn;
+	-webkit-animation-duration:3s;
+	animation-duration:3s;
+}
 
 
 .last-news,
 .list-news{
 	.animated{
+		-webkit-animation-duration: .75s;
 		animation-duration: .75s;
+		-webkit-animation-timing-function: ease;
 		animation-timing-function: ease;
+		-webkit-animation-fill-mode: both;
 		animation-fill-mode: both;
+		-webkit-backface-visibility: hidden;
 		backface-visibility: hidden;
 		transform: scale3d(1,1,1);
 		&.image{
+			-webkit-animation-name: productListItemImageFadeInUp;
 			animation-name: productListItemImageFadeInUp;
 		}
 		&.news-title{
+			-webkit-animation-name: productListItemTitleFadeInUp;
 			animation-name: productListItemTitleFadeInUp;
 		}
 		&.text{
+			-webkit-animation-name: productListItemPriceFadeInUp;
 			animation-name: productListItemPriceFadeInUp;
 		}
 	}
@@ -686,17 +835,21 @@ main{
 
 .list-masters{
 	.animated{
+		-webkit-animation-duration: .75s;
 		animation-duration: .75s;
+		-webkit-animation-timing-function: ease;
 		animation-timing-function: ease;
+		-webkit-animation-fill-mode: both;
 		animation-fill-mode: both;
+		-webkit-backface-visibility: hidden;
 		backface-visibility: hidden;
 		transform: scale3d(1,1,1);
-		&.image{
-		}
 		&.master-info{
+			-webkit-animation-name: productListItemImageFadeInUp;
 			animation-name: productListItemImageFadeInUp;
 		}
 		&.master-about{
+			-webkit-animation-name: productListItemTitleFadeInUp;
 			animation-name: productListItemTitleFadeInUp;
 		}
 	}
@@ -706,18 +859,25 @@ main{
 .home-catalog,
 .other-products-carousel{
 	.animated{
+		-webkit-animation-duration: .75s;
 		animation-duration: .75s;
+		-webkit-animation-timing-function: ease;
 		animation-timing-function: ease;
+		-webkit-animation-fill-mode: both;
 		animation-fill-mode: both;
+		-webkit-backface-visibility: hidden;
 		backface-visibility: hidden;
 		transform: scale3d(1,1,1);
 		&.transform-image{
+			-webkit-animation-name: productListItemImageFadeInUp;
 			animation-name: productListItemImageFadeInUp;
 		}
 		&.title{
+			-webkit-animation-name: productListItemTitleFadeInUp;
 			animation-name: productListItemTitleFadeInUp;
 		}
 		&.price-buy{
+			-webkit-animation-name: productListItemPriceFadeInUp;
 			animation-name: productListItemPriceFadeInUp;
 		}
 	}
@@ -725,7 +885,8 @@ main{
 
 @media screen and (max-width: 1024px) {
 	.cifr{
-		-webkit-animation-name:none; animation-name:none;
+		-webkit-animation-name:none;
+		animation-name:none;
 		opacity: 1 !important
 	}
 	.fadeIn {

@@ -6,7 +6,7 @@
 <meta name="description" content="" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" /> 
 <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
 
@@ -18,12 +18,10 @@
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 <link rel="stylesheet" href="css/owl.carousel.css" />
 <link rel="stylesheet" href="css/styles.css" />
-
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+<link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
-
-<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+<script src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 
 <!--[if IE]>
 	<link href="css/styles-ie.css" rel="stylesheet" type="text/css" />
@@ -38,7 +36,7 @@
 <![endif]-->
 
 <!--[if lte IE 6]>
-	<meta http-equiv="refresh" content="0; url=http://yoursite.com/ie6/ie6.html">
+	<meta http-equiv="refresh" content="0; url=http://yoursite.com/ie6/ie6.html"> 	
 <![endif]-->
 <!-- InstanceBeginEditable name="head" -->
 <!-- InstanceEndEditable -->
@@ -52,8 +50,12 @@
 			<div class="row">
 				<div class="col-md-3 col-sm-12 col-xs-12">
 					<a href="/" class="logo"><img src="images/logo.png" alt="Мистецька Скарбниця" /></a>
+					<div class="lang">
+						<span>UA</span>
+						<a href="#">EN</a>
+					</div>
 				</div>
-				<div class="col-md-8 col-sm-11 col-xs-12">
+				<div class="col-md-8 col-sm-11 col-xs-6">
 					<nav class="navbar navbar-default">
 						<div class="navbar-header">
 							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
@@ -76,7 +78,7 @@
 						</div>
 					</nav>
 				</div>
-				<div class="col-sm-1 col-xs-12 small-cart">
+				<div class="col-sm-1 col-xs-6 small-cart">
 					<a href="#">0</a>
 				</div>
 			</div>
@@ -84,9 +86,40 @@
 	</header>
 	<!-- =/header -->
 
+	<!--  =mobile-menu -->
+	<div class="mobile-menu">
+		<a href="#" class="back"><img src="images/back.png" alt="" /></a>
+		<ul class="menu">
+			<li><a href="#">Майстри</a></li>
+			<li><a href="#">Напрями</a></li>
+			<li><a href="#">Продукція</a></li>
+			<li><a href="#">Події</a></li>
+			<li><a href="#">Про нас</a></li>
+			<li><a href="#">Контакти</a></li>
+			<li><a href="#">Корпоративні замовлення</a></li>
+		</ul>
+		<div class="logo">
+			<img src="images/logo-white.png" alt="" />
+		</div>
+		<div class="social">
+			<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+			<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+			<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+			<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+		</div>
+	</div>
+	<!--  =/mobile-menu -->
+		
 	<!-- InstanceBeginEditable name="EditRegion3" -->
 
 	<div class="main">
+		<!--  =breadcrumbs-->
+		<div class="breadcrumbs">
+			<a href="#">Головна</a>
+			<span class="separator"></span>
+			<span class="current">Карточка товара</span>
+		</div>
+		<!--  =/breadcrumbs-->
 		<!-- =product foto gallery -->
 		<div class="container">
 			<div class="product-foto text-center">
@@ -360,8 +393,8 @@
 	<!-- =/last-news -->
 
 	<!-- InstanceEndEditable -->
-</div>
-
+</div> 
+	
 <!-- =footer -->
 <footer>
 	<div class="container">
@@ -369,7 +402,7 @@
 			<div class="logo col-md-2 col-sm-3 col-xs-12">
 				<a href="/"><img src="images/logo.png" alt="Мистецька Скарбниця" width="133" height="67" /></a>
 			</div>
-			<div class="menu col-md-7 col-sm-7 col-xs-12" role="navigation">
+			<div class="menu col-md-7 col-sm-6 col-xs-12" role="navigation">
 				<ul>
 					<li><a href="#" title="">Доставка</a></li>
 					<li><a href="#" title="">Оплата</a></li>
@@ -378,14 +411,14 @@
 					<li><a href="#" title="">FAQ</a></li>
 				</ul>
 			</div>
-			<div class="social col-md-3 col-sm-2 col-xs-12">
+			<div class="social col-md-3 col-sm-3 col-xs-12">
 				<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 				<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 				<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
 				<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 			</div>
 		</div>
-		<div class="bottom">
+		<div class="bottom row">
 			<div class="copyright col-sm-6 col-xs-12">
 				© 2016 Мистецька Скарбниця All rights reserved.
 			</div>
@@ -397,12 +430,13 @@
 </footer>
 <!-- =/footer -->
 
-<!-- <script src="http://ajax.microsoft.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script> -->
-<script src="js/bootstrap.min.js"></script>
+<script src="http://ajax.microsoft.com/ajax/jquery.validate/1.15.0/jquery.validate.min.js"></script> 
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/isotope.pkgd.min.js"></script>
 <script src="js/jquery.easing.min.js"></script>
 <script src="js/jquery.lavalamp.min.js"></script>
+<script src="js/jquery.formstyler.min.js"></script>
+<script src="js/placeholders.min.js"></script>
 <script src="js/engine.js"></script>
 </body>
 <!-- InstanceEnd --></html>

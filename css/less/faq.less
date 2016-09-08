@@ -42,50 +42,54 @@
 	}
 }
 
-
-
-
 .faq-form form,
-.contact-form{
-		.form-control{
-			border:1px solid @color6;
-			height: 46px;
-			padding-left: 27px;
-			padding-right: 25px;
-			.rounded(25px);
-			&::-webkit-input-placeholder {color:@color3;}
-			&::-moz-placeholder          {color:@color3;}/* Firefox 19+ */
-			&:-moz-placeholder           {color:@color3;}/* Firefox 18- */
-			&:-ms-input-placeholder      {color:@color3;}
-			&:focus{
-				border: 2px solid @color3;
-				padding-left: 26px;
-				padding-right: 24px;
-				box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(225, 78, 45, 0.2)
-			}
+.contact-form,
+.order form{
+	.form-control{
+		border:1px solid @color6;
+		height: 46px;
+		padding-left: 27px;
+		padding-right: 25px;
+		.rounded(25px);
+		&::-webkit-input-placeholder {color:@color3;}
+		&::-moz-placeholder          {color:@color3;}/* Firefox 19+ */
+		&:-moz-placeholder           {color:@color3;}/* Firefox 18- */
+		&:-ms-input-placeholder      {color:@color3;}
+		&:focus{
+			border: 2px solid @color3;
+			padding-left: 26px;
+			padding-right: 24px;
+			box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(225, 78, 45, 0.2)
 		}
-		textarea.form-control{
-			.rounded(20px);
-			height: 170px;
-			padding-top: 12px;
-			&:focus{
-				padding-top: 11px;
-			}
+		&.error{
+			border-color: #ea060e;
 		}
-		.submit{
-			.rounded(25px);
-			.transition;
-			background: @color3;
-			border: none;
-			color: @color2;
-			height: 48px;
-			margin-top: 27px;
-			text-align: center;
-			width: 194px;
-			&:hover{
-				background-color: @color4;
-			}
+		&.valid{
+			border-color: #3ac827 !important;
 		}
+	}
+	textarea.form-control{
+		.rounded(20px);
+		height: 170px;
+		padding-top: 12px;
+		&:focus{
+			padding-top: 11px;
+		}
+	}
+	.submit{
+		.rounded(25px);
+		.transition;
+		background: @color3;
+		border: none;
+		color: @color2;
+		height: 48px;
+		margin-top: 27px;
+		text-align: center;
+		width: 194px;
+		&:hover{
+			background-color: @color4;
+		}
+	}
 }
 
 
@@ -99,9 +103,9 @@
 		padding-bottom: 22px;
 	}
 	form{
-		width: 455px;
 		margin-left: auto;
 		margin-right: auto;
+		width: 455px;
 		.form-group{
 			margin-top: 26px;
 			margin-bottom: 0;
