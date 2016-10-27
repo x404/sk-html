@@ -22,13 +22,11 @@ $(document).ready(function(){
 	$('.grid').isotope({
 		// options
 		itemSelector: '.grid-item',
+		layoutMode: 'fitRows',
 		masonryHorizontal: {
 			rowHeight: 360
 		}
 	});
-
-
-
 
 
 	var panel = $('.header'),
@@ -205,6 +203,12 @@ $(document).ready(function(){
 	// =/заглушка для IE
 
 })
+
+$(document).on('click', '.popup .close', function(e) {
+	e.preventDefault();
+	$(this).closest('.popup').fadeOut();
+})
+
 
 jQuery.extend(jQuery.validator.messages, {
 	required: "Помилка",

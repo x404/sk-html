@@ -879,6 +879,47 @@ main{
 	}
 }
 
+
+
+
+// =popup
+.popup{
+	background-color: @color3;
+	.rounded(10px);
+	@w: 670px;
+	border: 10px solid @color3;
+	color: @color3;
+	font-size: 24px;
+	left: 50%;
+	margin-left: -@w/2;
+	position: fixed;
+	text-align: center;
+	top: 20%;
+	width: @w;
+	z-index: 999;
+	.inner{
+		.rounded(6px);
+		padding: 65px 0;
+		background-color: @color5;
+		border: 1px solid @color5;
+	}
+	.close{
+		position: absolute;
+		border: none;
+		background: none;
+		width: 20px;
+		height: 20px;
+		right: 10px;
+		top: 15px;
+		img{
+			vertical-align: top;
+		}
+	}
+}
+// =/popup
+
+
+
 @media screen and (max-width: 1024px) {
 	.cifr{
 		-webkit-animation-name:none;
